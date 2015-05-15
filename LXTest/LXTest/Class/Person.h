@@ -17,5 +17,6 @@ typedef enum {
 @property (nonatomic,copy) NSString *name;
 @property (nonatomic,assign) Psex sex ;
 @property (nonatomic,assign) double height;
+@property (nonatomic,copy) NSString *useTest;
 
 @end
