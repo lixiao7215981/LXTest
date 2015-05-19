@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E8D19211B0B661C004DA8A4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D191F1B0B661C004DA8A4 /* BaseViewController.m */; };
+		4E8D19221B0B661C004DA8A4 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8D19201B0B661C004DA8A4 /* BaseViewController.xib */; };
 		4EB5D5AC1B04B55B00BA562B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5D5AB1B04B55B00BA562B /* main.m */; };
 		4EB5D5AF1B04B55B00BA562B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5D5AE1B04B55B00BA562B /* AppDelegate.m */; };
 		4EB5D5B21B04B55B00BA562B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB5D5B11B04B55B00BA562B /* ViewController.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E8D191E1B0B661C004DA8A4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4E8D191F1B0B661C004DA8A4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4E8D19201B0B661C004DA8A4 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		4EB5D5A61B04B55B00BA562B /* LXTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB5D5AA1B04B55B00BA562B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB5D5AB1B04B55B00BA562B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,6 +133,9 @@
 			children = (
 				4EB5D5D01B04B56500BA562B /* Person.h */,
 				4EB5D5D11B04B56500BA562B /* Person.m */,
+				4E8D191E1B0B661C004DA8A4 /* BaseViewController.h */,
+				4E8D191F1B0B661C004DA8A4 /* BaseViewController.m */,
+				4E8D19201B0B661C004DA8A4 /* BaseViewController.xib */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB5D5B51B04B55B00BA562B /* Main.storyboard in Resources */,
+				4E8D19221B0B661C004DA8A4 /* BaseViewController.xib in Resources */,
 				4EB5D5BA1B04B55B00BA562B /* LaunchScreen.xib in Resources */,
 				4EB5D5B71B04B55B00BA562B /* Images.xcassets in Resources */,
 			);
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB5D5B21B04B55B00BA562B /* ViewController.m in Sources */,
+				4E8D19211B0B661C004DA8A4 /* BaseViewController.m in Sources */,
 				4EB5D5AF1B04B55B00BA562B /* AppDelegate.m in Sources */,
 				4EB5D5D21B04B56500BA562B /* Person.m in Sources */,
 				4EB5D5AC1B04B55B00BA562B /* main.m in Sources */,
@@ -432,6 +442,7 @@
 				4EB5D5CB1B04B55C00BA562B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB5D5CC1B04B55C00BA562B /* Build configuration list for PBXNativeTarget "LXTestTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +451,7 @@
 				4EB5D5CE1B04B55C00BA562B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
